@@ -4,11 +4,18 @@
 
 }
 
+@theme {
+    /* --font-*: initial; */
+  --font-inter: var(--font-inter); 
+  --font-oswald: var(--font-oswald); 
+  --font-manrope: var(--font-manrope); 
+}
+
 @theme inline {
 
 }
 
 
 body {
-
+    font-family: var(--font-inter);
 }
